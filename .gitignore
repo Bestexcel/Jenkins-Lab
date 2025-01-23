@@ -1,0 +1,39 @@
+# Ignore Terraform provider directories
+.terraform/provider-*
+
+# Ignore the local .terraform directory
+.terraform/
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+
+# Ignore Terraform variable files (sensitive or environment-specific data)
+*.tfvars
+
+# Ignore main Terraform configuration files if not needed for versioning
+
+*.terraform.tfstate
+*.terraform.tfstate.backup
+
+
+# Ignore any backup files created by editors
+*.swp
+*~
+
+# Ignore crash log files
+crash.log
+crash.*.log
+
+# Ignore Terraform CLI configuration files
+.terraformrc
+terraform.rc
+
+# Ignore userdata file (if not needed for versioning)
+userdata1.sh
+variable.tf
+
+
